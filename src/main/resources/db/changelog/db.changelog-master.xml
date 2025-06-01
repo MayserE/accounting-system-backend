@@ -28,4 +28,24 @@
                logicalFilePath="db/changelog/db.20250511-05-company-users-table.sql">
         <sqlFile path="db.20250511-05-company-users-table.sql" relativeToChangelogFile="true"/>
     </changeSet>
+    <changeSet id="20250517-06"
+               author="Ernesto Mayser Vasquez"
+               logicalFilePath="db/changelog/db.20250517-06-permissions-table.sql">
+        <sqlFile path="db.20250517-06-permissions-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet id="20250517-07"
+               author="Ernesto Mayser Vasquez"
+               logicalFilePath="db/changelog/db.20250517-07-role-permissions-table.sql">
+        <sqlFile path="db.20250517-07-role-permissions-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet id="20250524-08"
+               author="Ernesto Mayser Vasquez"
+               logicalFilePath="db/changelog/db.20250524-08-clients-table.sql">
+        <sqlFile path="db.20250524-08-clients-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet id="20250528-10"
+               author="Ernesto Mayser Vasquez"
+               logicalFilePath="db/changelog/db.20250528-10-items-table.sql">
+        <sqlFile path="db.20250528-10-items-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
 </databaseChangeLog>

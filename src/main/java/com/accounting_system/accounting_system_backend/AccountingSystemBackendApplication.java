@@ -14,7 +14,7 @@ public class AccountingSystemBackendApplication {
     public AccountingSystemBackendApplication(AppConfig appConfig, PasswordEncoder passwordEncoder) throws KeysException {
         JwtManager.getInstance().initialize(appConfig.getPrivateKeyPath(), appConfig.getPublicKeyPath(), Boolean.TRUE);
         this.passwordEncoder = passwordEncoder;
-        System.out.println(passwordEncoder.encode("12345678"));
+        System.out.println(passwordEncoder.encode("brayan156"));
     }
 
     public static void main(String[] args) {

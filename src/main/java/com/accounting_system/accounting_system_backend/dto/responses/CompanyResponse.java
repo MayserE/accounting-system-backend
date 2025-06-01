@@ -1,6 +1,6 @@
 package com.accounting_system.accounting_system_backend.dto.responses;
 
-import com.accounting_system.accounting_system_backend.enums.CompanyStatus;
+import com.accounting_system.accounting_system_backend.domain.entities.enums.CompanyStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

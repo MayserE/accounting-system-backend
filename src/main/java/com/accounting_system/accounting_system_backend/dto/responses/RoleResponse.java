@@ -1,6 +1,6 @@
 package com.accounting_system.accounting_system_backend.dto.responses;
 
-import com.accounting_system.accounting_system_backend.enums.RoleStatus;
+import com.accounting_system.accounting_system_backend.domain.entities.enums.RoleStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,5 +18,4 @@ public class RoleResponse {
     private Timestamp updatedAt;
     private String name;
     private RoleStatus status;
-    private CompanyResponse company;
 }
