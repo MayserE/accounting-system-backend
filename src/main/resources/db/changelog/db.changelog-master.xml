@@ -48,4 +48,9 @@
                logicalFilePath="db/changelog/db.20250528-10-items-table.sql">
         <sqlFile path="db.20250528-10-items-table.sql" relativeToChangelogFile="true"/>
     </changeSet>
+    <changeSet id="20250601-11"
+               author="Ernesto Mayser Vasquez"
+               logicalFilePath="db/changelog/db.20250601-11-accounts-table.sql">
+        <sqlFile path="db.20250601-11-accounts-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
 </databaseChangeLog>
